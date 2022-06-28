@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>JS Drum Kit</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 
@@ -45,6 +47,14 @@
       <kbd>L</kbd>
       <span class="sound">tink</span>
     </div>
+    <div data-key="82" class="record-block">
+      <kbd>R</kbd>
+      <span class="sound">Record</span>
+    </div>
+    <div data-key="80" class="play-block">
+      <kbd>P</kbd>
+      <span class="sound">Play</span>
+    </div>
   </div>
 
   <audio data-key="65" src="sounds/clap.wav"></audio>
@@ -56,7 +66,10 @@
   <audio data-key="74" src="sounds/snare.wav"></audio>
   <audio data-key="75" src="sounds/tom.wav"></audio>
   <audio data-key="76" src="sounds/tink.wav"></audio>
+  <audio data-key="82" src=""></audio>
+  <audio data-key="80" src=""></audio>
 
   <script src="app.js"></script>
 </body>
+
 </html>
